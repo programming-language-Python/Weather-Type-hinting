@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "weather-type-hinting"
+version = "0.1.0"
+description = ""
+authors = ["Roman <maks3564195@gmail.com>"]
+readme = "README.md"
+packages = [{include = "weather_type_hinting"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
